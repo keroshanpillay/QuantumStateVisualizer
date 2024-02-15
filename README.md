@@ -5,9 +5,16 @@ This Python script visualizes quantum state transitions of a hydrogen atom using
 ## Features
 
 - Calculation of wave functions for hydrogen atom quantum states using spherical harmonics and generalized Laguerre polynomials.
-- Visualization of quantum state transitions through smooth interpolations between states.
-- Generation of animations showcasing the dynamic evolution of electron probability densities across different quantum states.
-- Utilization of ease-in-out sine function for smooth transition animations between states.
+- Visualization of quantum state transitions through smooth interpolations between states, represented as α|𝒏𝒍𝒎⟩ + β|𝒏'𝒍'𝒎'⟩, where α decreases and β increases over time.
+- Generation of animations showcasing the dynamic evolution of electron probability densities across different quantum states, with dots representing the values of 𝒏𝒍𝒎, and solid lines showing possible allowed transitions.
+- Display of spatial probability density of finding an electron in a hydrogen atom, enhancing understanding of quantum numbers (𝒏, 𝒍, 𝒎) and their roles in specifying the state of the hydrogen atom:
+    - 𝒏: total energy
+    - 𝒍: total angular momentum
+    - 𝒎: z-component of angular momentum
+- Utilization of the following formula to compute wavefunctions: 
+$$
+\psi_{n l m}(r, \vartheta, \varphi)=\sqrt{\left(\frac{2}{n a_0}\right)^3 \frac{(n-l-1) !}{2 n[(n+l) !]}} e^{-\rho / 2} \rho^l L_{n-l-1}^{2 l+1}(\rho) \cdot Y_{l m}(\vartheta, \varphi)
+$$
 
 ## Requirements
 
