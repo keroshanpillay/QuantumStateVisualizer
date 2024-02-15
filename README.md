@@ -2,6 +2,10 @@
 
 This Python script visualizes quantum state transitions of a hydrogen atom using Python's scientific libraries such as NumPy, SciPy, and Matplotlib. It computes and animates transitions between various quantum states of a hydrogen atom by calculating the probability density of the electron's position in space for a given set of quantum numbers. The visualization showcases the beauty and complexity of quantum mechanical behaviors in atomic systems.
 
+## Results
+
+![video](hydrogen_atom_transitions.mp4)
+
 ## Credit
 
 Full credit for this idea belongs to [Ben Barlett](https://twitter.com/bencbartlett/status/1287802625602117632) and @qbitlab (TikTok). I first saw Ben's work and this mesmerized me:
