@@ -4,7 +4,7 @@ This Python script visualizes quantum state transitions of a hydrogen atom using
 
 ## Results
 
-![video](hydrogen_atom_transitions.mp4)
+[see here](hydrogen_atom_transitions.mp4)
 
 ## Credit
 
