@@ -6,7 +6,7 @@ This Python script visualizes quantum state transitions of a hydrogen atom using
 
 Full credit for this idea belongs to [Ben Barlett](https://twitter.com/bencbartlett/status/1287802625602117632) and @qbitlab (TikTok). I first saw Ben's work and this mesmerized me:
 
-![image](Ed8wDdIU8AAP7Ps.png))
+![image](Ed8wDdIU8AAP7Ps.png)
 
 ## Features
 
