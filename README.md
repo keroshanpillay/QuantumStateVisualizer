@@ -12,9 +12,7 @@ This Python script visualizes quantum state transitions of a hydrogen atom using
     - 𝒍: total angular momentum
     - 𝒎: z-component of angular momentum
 - Utilization of the following formula to compute wavefunctions: 
-$$
-\psi_{n l m}(r, \vartheta, \varphi)=\sqrt{\left(\frac{2}{n a_0}\right)^3 \frac{(n-l-1) !}{2 n[(n+l) !]}} e^{-\rho / 2} \rho^l L_{n-l-1}^{2 l+1}(\rho) \cdot Y_{l m}(\vartheta, \varphi)
-$$
+$$\psi_{n l m}(r, \vartheta, \varphi)=\sqrt{\left(\frac{2}{n a_0}\right)^3 \frac{(n-l-1) !}{2 n[(n+l) !]}} e^{-\rho / 2} \rho^l L_{n-l-1}^{2 l+1}(\rho) \cdot Y_{l m}(\vartheta, \varphi)$$
 
 ## Requirements
 
